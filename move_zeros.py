@@ -28,5 +28,14 @@ class Solution:
                 pos +=1
             print(nums)
         return nums
+
+    def moveZeroes3(self, nums: List[int]) -> None:
+        zero_counts = nums.count(0)
+        for i in range(zero_counts):
+            nums.remove(0)
+            nums.append(0)
+        return nums
+
+    
 sol = Solution()
-print(sol.moveZeroes2(list1))
+print(sol.moveZeroes3(list1))
