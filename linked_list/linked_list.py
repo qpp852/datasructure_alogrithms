@@ -107,13 +107,13 @@ class LinkedList:
             
         return self.print_list()
     
-    
-my_linked_list = LinkedList(10)
-my_linked_list.append(5)
-my_linked_list.append(16)
-my_linked_list.prepend(1)
-my_linked_list.insert(2, 99)
-my_linked_list.insert(2, 88)
-my_linked_list.remove(1)
-my_linked_list.reverse()
-# print(my_linked_list)
+if __name__ == "__main__":
+    my_linked_list = LinkedList(10)
+    my_linked_list.append(5)
+    my_linked_list.append(16)
+    my_linked_list.prepend(1)
+    my_linked_list.insert(2, 99)
+    my_linked_list.insert(2, 88)
+    my_linked_list.remove(1)
+    my_linked_list.reverse()
+    # print(my_linked_list)
